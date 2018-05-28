@@ -379,3 +379,73 @@ nav h1 a {
   }
 
 }
+
+
+/* ====== MEDIA QUERIES ====== */
+
+/* === HOME PAGE === */
+/*
+@media all and (max-width: 1300px) {
+  #restaurants-list li {
+    width: calc(49% - 60px - 4%);
+  }
+}
+
+@media all and (max-width: 550px) {
+  #restaurants-list li {
+    width: calc(99% - 60px - 4%);
+  }
+
+  .filter-options select {
+    display: block;
+  }
+
+  .filter-options #cuisines-select {
+    margin-left: 0;
+  }
+
+  .filter-options {
+    padding-bottom: 12px;
+  }
+}
+*/
+/* === DET PAGE === */
+/*
+@media all and (max-width: 800px) {
+  #maincontent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inside #map-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    top: 130px;
+  }
+
+  .inside #breadcrumb {
+    width: 100%;
+  }
+
+  #restaurant-container, #reviews-container {
+    width: calc(100% - 80px);
+  }
+
+  .inside #footer {
+    width: calc(100% - 50px);
+  }
+
+  #restaurant-img {
+    width: 100%;
+  }
+
+  #restaurant-cuisine {
+    width: 100%;
+  }
+
+  #reviews-list li {
+    width: 95%;
+  }
+}
+*/
