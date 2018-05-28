@@ -1,5 +1,9 @@
 let restaurant;
 var map;
+//add service worker registration here
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/service-worker.js');
+}
 
 /**
  * Initialize Google map, called from HTML.
