@@ -12,11 +12,11 @@
 <body>
   <header>
     <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1><a href="/" tabindex="0">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
-  <main id="maincontent">
+  <main id="maincontent" tabindex="-1">
     <section id="map-container">
       <div id="map" role="application"></div>
     </section>
@@ -35,6 +35,15 @@
     </section>
     <div id="test"> String = Hello</div>
   </main>
+  <script>
+  if ('serviceWorker in navigatior') {
+    navigator.serviceWorker.register('/js/sw.js').then(function() {
+      console.log('Registration worked');
+    }).catch(function() {
+      console.log('Registration failed');
+    });
+  }
+  </script>
 
   <script type="application/javascript" charset="utf-8" src="js/dbhelper.js"></script>
   <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
