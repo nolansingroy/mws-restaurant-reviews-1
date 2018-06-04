@@ -182,12 +182,10 @@ addMarkersToMap = (restaurants = self.restaurants) => {
 /*
 * ---------- Register Service Worker -------------
 */
-
-IndexController.prototype._registerServiceWorker = function() {
-  if(!navigatior.serviceWorker) return;
-  navigator.serviceWorker.register('/js/sw.js').then(function(){console.log('Registration success');
-}).catch(function(){
-  console.log('Registration Failed!');
-});
-
-};
+if ('serviceWorker in navigatior') {
+  navigator.serviceWorker.register('/js/sw.js').then(function() {
+    console.log('Registration worked');
+  }).catch(function() {
+    console.log('Registration failed');
+  });
+}
