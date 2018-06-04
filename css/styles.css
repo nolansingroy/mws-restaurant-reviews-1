@@ -126,7 +126,7 @@ nav h1 a {
   background-color: #ccc;
 }
 #map a:focus {
-  border: 2px solid red;
+  border: 7px solid red;
 }
 #map iframe {
   visibility: hidden;
@@ -180,7 +180,7 @@ nav h1 a {
   display: grid;
   grid-template-columns: repeat(auto-fit, 340px);
   justify-content: space-evenly;
-  background-color: #f3f3f3;
+  background-color: blue;
   list-style: outside none none;
   margin: 0;
   padding: 30px 0px 60px;
@@ -249,11 +249,11 @@ nav h1 a {
 }
 
 .inside #map-container {
-  background: blue none repeat scroll 0 0;
-  height: calc(100% -100px);
+  background: green none repeat scroll 0 0;
+  height: calc(100% -105px);
   position: fixed;
   right: 0;
-  top: 50px;
+  top: 30px;
   width: 50%;
 }
 
@@ -307,7 +307,7 @@ nav h1 a {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 90px 40px 30px;
+  padding: 80px 10px 30px;
   width: calc(50% -20px);
 }
 
@@ -373,7 +373,7 @@ nav h1 a {
 
   .inside #map-container {
     width: 100%;
-    position: relative;
+    position:relative;
     height: 70vh;
     top: 85px;
   }
@@ -424,7 +424,7 @@ nav h1 a {
 }
 */
 /* === DET PAGE === */
-/**
+/*
 @media all and (max-width: 800px) {
   #maincontent {
     display: flex;
@@ -462,4 +462,3 @@ nav h1 a {
     width: 95%;
   }
 }
-**/

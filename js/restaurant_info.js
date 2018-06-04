@@ -2,7 +2,7 @@ let restaurant;
 var map;
 //add service worker registration here
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/service-worker.js');
+  navigator.serviceWorker.register('/js/sw.js');
 }
 
 /**
