@@ -393,7 +393,22 @@ nav h1 a {
   }
 
 }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 800px) {
+#test {
+  background-color: red;
+}
+/*to get map to span right of page for det*/
+.inside #map-container {
+  width: 100%;
+  position:relative;
+  height: 70vh;
+  top: 85px;
+}
 
+
+
+}
 
 /* ====== MEDIA QUERIES ====== */
 
