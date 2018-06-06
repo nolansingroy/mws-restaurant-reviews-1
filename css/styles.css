@@ -399,6 +399,7 @@ nav h1 a {
   background-color: red;
 }
 /*to get map to span right of page for det*/
+/*
 .inside #map-container {
   width: 100%;
   position:relative;
@@ -406,7 +407,14 @@ nav h1 a {
   top: 85px;
 }
 
-
+*/
+.inside #map-container{
+background: green none repeat scroll 0 0;
+height: calc(100% -105px);
+position: fixed;
+right: 0;
+top: 30px;
+width: 50%;}
 
 }
 
