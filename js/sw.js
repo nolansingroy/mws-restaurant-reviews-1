@@ -1,4 +1,3 @@
-/** service worker */
 restaurantsCache = 'restaurants-v2';
 
 self.addEventListener('install',function(event) {
@@ -34,7 +33,10 @@ self.addEventListener('fetch', function (event) {
     console.log(event.request);
     event.respondWith(
       caches.match(event.request).then(function (response){
-        if (response) return response;
+        if (response){ return response;
+        }else {
+          console.log('error no response');
+        }
         return fetch(event.request);
       })
     );
