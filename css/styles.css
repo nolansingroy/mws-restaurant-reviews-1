@@ -138,6 +138,7 @@ nav h1 a {
   height: 50px;
   background-color: #3397DB;
   align-items: center;
+ padding-left: 45px;
 }
 
 .filter-options h2 {
@@ -183,7 +184,7 @@ nav h1 a {
   background-color: blue;
   list-style: outside none none;
   margin: 0;
-  padding: 30px 0px 60px;
+  padding: 90px 10px 60px 20px;
   text-align: center;
   width: 100%;
 }

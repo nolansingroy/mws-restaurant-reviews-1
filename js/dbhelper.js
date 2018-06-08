@@ -155,7 +155,7 @@ class DBHelper {
   /** ---- insert imageSrcsetForResturant below----*/
 
   static imageSrcSetForResturant(restaurant){
-  return(`/img/01.png/${restaurant.photograph} sml,/img/01.png${restaurant.photograph} med,/img/01.png${restaurant.photograph} lg`);
+  return(`/img/${restaurant.photograph} sml,/img/${restaurant.photograph} med,/img/${restaurant.photograph} lg`);
 }
 
   /**
