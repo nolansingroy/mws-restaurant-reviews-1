@@ -171,13 +171,7 @@ nav h1 a {
 
 #restaurants-list {
   /* --- Grid System mdn grids--- */
-  /*
-	background-color: #f3f3f3;
-  list-style: outside none none;
-  margin: 0;
-  padding: 30px 15px 60px;
-  text-align: center;
-*/
+
   display: grid;
   grid-template-columns: repeat(auto-fit, 340px);
   justify-content: space-evenly;
@@ -421,7 +415,7 @@ width: 50%;}
 
 
 
-/* === HOME PAGE === */
+/* === home page  === */
 /*
 @media all and (max-width: 1300px) {
   #restaurants-list li {
