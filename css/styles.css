@@ -138,7 +138,7 @@ nav h1 a {
   height: 50px;
   background-color: #3397DB;
   align-items: center;
- padding-left: 45px;
+  padding-left: 45px;
 }
 
 .filter-options h2 {
@@ -164,7 +164,6 @@ nav h1 a {
 .filter-options select:focus{
   border:2px solid blue;
 }
-/* ================ Grid System ================= */
 
 
 /* ======= Restaurant Listing ======== */
@@ -346,7 +345,6 @@ nav h1 a {
 /* ================= Media Queries ============== */
 /*
 @media screen and (min-width: 500px){
-  #test {background-color: #F79420;}
 
 #restaurants-list {
 	background-color: #F3F40d;
