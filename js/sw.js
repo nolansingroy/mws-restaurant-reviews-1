@@ -7,7 +7,7 @@ self.addEventListener('install',function(event) {
         '/',
         '/favicon.ico',
         '/restaurant.html',
-        'index.html',
+        '/index.html',
         '/css/styles.css',
         '/data/resturants.json',
         '/img/1.jpg',

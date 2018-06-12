@@ -154,9 +154,9 @@ class DBHelper {
   }
   /** ---- insert imageSrcsetForResturant below----*/
 
-  static imageSrcSetForResturant(restaurant){
-  return(`/img/${restaurant.photograph} sml,/img/${restaurant.photograph} med,/img/${restaurant.photograph} lg`);
-}
+  static imageSrcSetForResturant(restaurant) {
+    return (`/img/${restaurant.photograph} sml,/img/${restaurant.photograph} med,/img/${restaurant.photograph} lg`);
+  }
 
   /**
    * Map marker for a restaurant.
@@ -167,8 +167,8 @@ class DBHelper {
       title: restaurant.name,
       url: DBHelper.urlForRestaurant(restaurant),
       map: map,
-      animation: google.maps.Animation.DROP}
-    );
+      animation: google.maps.Animation.DROP
+    });
     return marker;
   }
 
