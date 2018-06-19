@@ -145,8 +145,9 @@ image.srcset = DBHelper.imageSrcSetForResturant(restaurant);
 /*image.sizes = "270px"*/
   image.alt = 'Photo of ' + restaurant.name;
   li.append(image);
-
-  const name = document.createElement('h1');
+//create the element at h2 semantic rule
+//name of restaurant is less important than the heading of pg
+  const name = document.createElement('h2');
   name.innerHTML = restaurant.name;
   li.append(name);
 
