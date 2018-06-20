@@ -61,7 +61,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 /* ====================== Navigation ====================== */
 
 nav {
-  width: 100%;
+  width: 111%;
   height: 80px;
   background-color: #252831;
   text-align: center;
@@ -122,7 +122,7 @@ nav h1 a {
 
 #map {
   height: 400px;
-  width: 100%;
+  width: 114%;
   background-color: #ccc;
 }
 #map a:focus {
@@ -179,7 +179,7 @@ nav h1 a {
   margin: 0;
   padding: 90px 10px 60px 20px;
   text-align: center;
-  width: 100%;
+  width: 105%;
 }
 
 #restaurants-list li {
