@@ -275,7 +275,8 @@ nav h1 a {
 }
 
 #restaurant-img {
-  width: 100%;
+  /* width needs to fit in desktop view */
+  width: 50%;
 }
 
 #restaurant-address {
@@ -295,7 +296,8 @@ nav h1 a {
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
-  width: 90%;
+/*should have the same width as restaurant-img */
+  width: 50%;
 }
 
 #restaurant-container, #reviews-container {

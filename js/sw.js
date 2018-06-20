@@ -5,7 +5,6 @@ self.addEventListener('install',function(event) {
     caches.open(restaurantsCache).then(function(cache){
       const sources = [
         '/',
-        '/favicon.ico',
         '/restaurant.html',
         '/index.html',
         '/css/styles.css',
