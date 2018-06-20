@@ -1,4 +1,4 @@
-restaurantsCache = 'restaurants-v2';
+var restaurantsCache = 'restaurants-v2';
 
 self.addEventListener('install',function(event) {
   event.waitUntil(
