@@ -8,11 +8,11 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   static get DATABASE_URL() {
-//    const port = 8000 // Change this to your server port
-//    return `http://localhost:${port}/data/restaurants.json`;
-//return `/data/restaurants.json` //hosting on github pages  
-    const filePath = '/data/restaurants.json';    
-const url = `${window.location.protocol}//${window.location.hostname}:${window.location.port}${filePath}`;
+  const filePath = '/assets/data/restaurants.json';
+   const url = window.location.hostname.includes('localhost')
+      ? `${window.location.protocol}//${window.location.hostname}:${window.location.port}${filePath}`
+      : `${window.location.protocol}//${window.location.hostname}${filePath}`
+
     return url;
 }
 
