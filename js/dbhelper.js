@@ -8,14 +8,15 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   static get DATABASE_URL() {
-  const filePath = '/data/restaurants.json';
-   const url = window.location.hostname.includes('localhost')
+
+    const filePath = '/data/restaurants.json';
+    const ghPages = 'https://nolansingroy.github.io/mws-restaurant-reviews-1/'
+    const url = window.location.hostname.includes('localhost')
       ? `${window.location.protocol}//${window.location.hostname}:${window.location.port}${filePath}`
-      : `${window.location.protocol}//${window.location.hostname}${filePath}`
-
+      : `${ghPages}${filePath}`
     return url;
-}
 
+}
   /**
    * Fetch all restaurants.
    */
