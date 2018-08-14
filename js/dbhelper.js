@@ -8,7 +8,7 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   static get DATABASE_URL() {
-  const filePath = '/assets/data/restaurants.json';
+  const filePath = '/data/restaurants.json';
    const url = window.location.hostname.includes('localhost')
       ? `${window.location.protocol}//${window.location.hostname}:${window.location.port}${filePath}`
       : `${window.location.protocol}//${window.location.hostname}${filePath}`
